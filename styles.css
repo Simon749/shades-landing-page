@@ -89,11 +89,19 @@ body {
 }
 
 #hleft .elem {
+    position: relative;
     height: 9vw;
     overflow: hidden;
 }
 
+#hleft .elem img:nth-child(1) {
+    top: 0;
+}
+
 #hleft .elem h1 {
+    position: absolute;
+    top: 100%;
+    left: 0;
     line-height: .9;
     font-family: 'kajiro';
     color: white;
